@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+.app-title{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+  font-size: 2.5vmin;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 30px auto;
+}
+.title{
+  
+  color: red;
+  text-shadow: 1px 1px  red;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 2px 3px 1px black;
+}
+.app-details{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cart{
+  width: 540px;
+  margin: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 2px black;
+  padding: 20px;
+}
+.cart img{
+  height: 550px;
+  width:100%
+}
+.cart span{
+  color: blue;
+  font-size: 33px;
+}
+.cart h1{
+  font-size: 30px;
+  
+}
